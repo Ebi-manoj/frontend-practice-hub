@@ -1,0 +1,67 @@
+#app-heading {
+  text-align: center;
+  font-size: 70px;
+  color: red;
+}
+
+#my-routes {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.routes {
+  font-size: 1.5rem;
+}
+
+#main-ul {
+  list-style-type: decimal;
+}
+
+#accordion-heading {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(54, 54, 54);
+}
+
+#accordions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#list-main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+#list-sub {
+  width: 100%;
+  background-color: rgb(114, 114, 114);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  height: 50px;
+}
+#list-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 0 10px;
+}
+
+#list-sub p {
+  cursor: pointer;
+  font-size: 30px;
+}
